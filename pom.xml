@@ -33,7 +33,10 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://13.59.132.34:8081/nexus/content/repositories/releases/</url>
+            <url>http://13.59.132.34:8081/
+		    
+		    
+		    /content/repositories/releases/</url>
 			<uniqueVersion>false</uniqueVersion>
         </repository>
         <snapshotRepository>
@@ -42,14 +45,8 @@
                      <url>http://13.59.132.34:8081/nexus/content/repositories/snapshots/</url>
 			<uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
-	<servers>
-		<server>
-			<id>deployment</id>
-			<username>admin</username>
-			<password>admin123</password>
-		</server>
-	</servers>
-    </distributionManagement>
+	
+	</distributionManagement>
 	<build>
 		<finalName>myweb</finalName>
 		<plugins>
